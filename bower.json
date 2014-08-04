@@ -1,0 +1,33 @@
+{
+  "name": "animation-trial",
+  "version": "0.0.1",
+  "authors": [
+    "kenta.nakai <k.nakai.urouro@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.2.0",
+    "jquery": "~2.1.1",
+    "jquery.scrollTo": "*",
+    "jquery.easing": "*"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+        "js": "dist/js/bootstrap.min.js",
+        "css": "dist/css/bootstrap.min.css"
+    },
+    "jquery": {
+      "js": "dist/jquery.min.js"
+    },
+    "jquery.scrollTo": {
+      "js": "jquery.scrollTo.js"
+    }
+  }
+}

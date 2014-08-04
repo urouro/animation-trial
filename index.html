@@ -1,0 +1,151 @@
+<html>
+<head>
+<link rel="stylesheet" href="./common/css/bootstrap/bootstrap.min.css" />
+<link rel="stylesheet" href="//octicons.github.com/components/octicons/octicons/octicons.css">
+<style>
+body {
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+#button {
+   margin: 30px;
+   text-align: center;
+}
+#target {
+   position: absolute;
+   visibility: hidden;
+}
+.rocket {
+   font-size: 128px;
+   color: red;
+}
+.triangle {
+    font-size: 96px;
+    text-align: center;
+ }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+<div class="row">
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+<div class="col-xs-4 mega-octicon octicon-triangle-down triangle"></div>
+</div>
+</div>
+  <div id="button" class="row">
+    <button id="topbtn" class="btn btn-info btn-lg">top</button>
+  </div>
+  <div id="target" class="row">
+    <span class="mega-octicon octicon-rocket rocket"></span>
+  </div>
+</div>
+<script type="text/javascript" src="./common/js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="./common/js/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="./common/jquery.easing/jquery.easing.min.js"></script>
+<script type="text/javascript" src="./common/js/jquery.scrollTo/jquery.scrollTo.js"></script>
+<script type="text/javascript">
+$(function(){
+   $('#target').offset({top: $('#topbtn').offset().top + $('#topbtn').height() + 60,
+                        left: $('#topbtn').offset().left - ($('#target').width() / 2)});
+   $('#target').css({'visibility': 'visible'});
+
+   $('#topbtn').click(function(){
+     $.scrollTo(0, 1000, {onAfter: function(){
+       $('#target').animate({
+         'top' : '30px'
+       }, {
+         'duration' : 1500,
+         'easing' : 'easeOutBounce'
+       });
+     }});
+   });
+});
+</script>
+</body>
+</html>

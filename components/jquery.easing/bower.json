@@ -1,0 +1,35 @@
+{
+  "name": "jquery.easing",
+  "version": "1.3.0",
+  "description": "jQuery Easing plugin",
+  "homepage": "http://gsgd.co.uk/sandbox/jquery/easing/",
+  "main": "js/jquery.easing.min.js",
+  "keywords": [
+    "jquery",
+    "jquery plugin",
+    "easing"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.2.1"
+  },
+  "authors": [
+    "Source code: George McGinley Smith",
+    "Package: Jozef Izso"
+  ],
+  "licenses": "NewBSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "gitHead": "f267050cab9d37960dfd76bf71f279e93848fba1",
+  "readme": "jQuery Easing Bower Package\n=================\n\nThis is a Bower component for [jQuery easing](http://gsgd.co.uk/sandbox/jquery/easing/) plugin (v1.3).\n\n# Installation\n\n`bower install jquery.easing --save`\n\n",
+  "readmeFilename": "README.md",
+  "_id": "jquery.easing@1.3.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jozefizso/bower-jquery-easing.git"
+  }
+}
