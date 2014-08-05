@@ -14,7 +14,26 @@ module.exports = function (grunt) {
         }
       }
     },
+    connect: {
+        server: {
+            options: {
+                port: 8080,
+                base: ''
+            }
+        }
+    },
+    watch: {
+        options: {
+            livereload: true
+        },
+        html: {
+            files: ['*.html'],
+            tasks: ['']
+        }
+    },
   });
   grunt.loadNpmTasks('grunt-bower-task');
-  grunt.registerTask('default', ['bower:install']);
+  grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.registerTask('default', ['bower:install', 'connect', 'watch']);
 };

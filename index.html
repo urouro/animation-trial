@@ -141,7 +141,15 @@ $(function(){
          'top' : '30px'
        }, {
          'duration' : 1500,
-         'easing' : 'easeOutBounce'
+         'easing' : 'easeOutBounce',
+         'complete' : function() {
+           $('#target').delay(1000).animate({
+             'top' : $("body").height()
+           }, {
+             'duration' : 1500,
+             'easing' : 'easeInCirc'
+           });
+         }
        });
      }});
    });
